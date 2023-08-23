@@ -1,25 +1,21 @@
-import { motion } from "framer-motion";
 import React from "react";
+import { motion, stagger } from "framer-motion";
 
+//animated the "Turning vision part" this makes it appear in 1s
 const quote = {
-  hidden: {
-    opacity: 1,
-  },
-  visible: {
+  initial: { opacity: 1 },
+  animate: {
     opacity: 1,
     transition: {
-      delay: 0.5,
-      staggerChildren: 0.08,
+      delay: 0.3,
+      staggerChildren: 0.1,
     },
   },
 };
 
 const singleWord = {
-  hidden: {
-    opacity: 0,
-    y: 50,
-  },
-  visible: {
+  initial: { opacity: 0, y: 50 },
+  animate: {
     opacity: 1,
     y: 0,
     transition: {
@@ -28,28 +24,29 @@ const singleWord = {
   },
 };
 
+// 2 inputs text and className
 const AnimatedText = ({ text, className = "" }) => {
   return (
-    <div className="py-2 w-full mx-auto flex flex-col items-center justify-center  text-center  
-    overflow-hidden sm:py-0">
+    <div className="w-full mx-auto py-2 flex items-center justify-center text-center overflow-hidden sm:py-0">
       <motion.h1
-        className={`inline-block text-dark dark:text-light
-      text-8xl font-bold w-full capitalize  ${className} xl:text-6xl`}
+        className={`text-8x1 inline-block w-full text-green font-bold capitalize text-8xl dark:text-light ${className}`}
         variants={quote}
-        initial="hidden"
-        animate="visible"
+        // initial and animate take the values above
+        initial="initial"
+        animate="animate"
       >
-        {text.split(" ").map((char, index) => {
-          return (
-            <motion.span
-              className="inline-block"
-              key={char + "-" + index}
-              variants={singleWord}
-            >
-              {char}&nbsp;
-            </motion.span>
-          );
-        })}
+        {text.split(" ").map((word, index) => (
+          <motion.span
+            key={word + "_" + index}
+            className="inline-block"
+            variants={singleWord}
+            // no need to initialize this.
+            // initial="initial"
+            // animate="animate"
+          >
+            {word}&nbsp;
+          </motion.span>
+        ))}
       </motion.h1>
     </div>
   );

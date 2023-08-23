@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Awesome Portfolio Built with Nextjs</title>
+        <title>Paul Portfolio!!!!!</title>
         <meta
           name="description"
           content="Explore CodeBucks's Next.js developer portfolio and 
@@ -41,11 +41,19 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Turning vision into reality with code and design."
+                text="Bridging Imagination & Technology."
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
+              {/* <p className="mt-0 ml-0 mb-2 text-base font-medium md:text-sm sm:text-xs text-primary dark:text-primaryDark">
+                By Paul Kiattikhunphan
+              </p> */}
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+              Welcome to my online space! As a skilled developer and student
+                at the University of Virginia, I&apos;m dedicated to turning ideas
+                into functional and engaging web applications. Here, you can
+                explore my latest projects and articles. So, grab a virtual cup
+                of coffee from your desk, make yourself comfortable, and let&apos;s
+                explore together!
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
@@ -65,11 +73,11 @@ export default function Home() {
                 </Link>
 
                 <Link
-                  href="mailto:codebucks27@gmail.com"
+                  href="mailto:ppk6chf@virginia.edu"
                   className="ml-4 text-lg font-medium capitalize text-dark underline 
                   dark:text-light md:text-base"
                 >
-                  Contact
+                  Contact Me!
                 </Link>
               </div>
             </div>
@@ -77,13 +85,7 @@ export default function Home() {
         </Layout>
 
         <HireMe />
-        <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
-          <Image
-            className="relative h-auto w-full"
-            src={lightBulb}
-            alt="Codebucks"
-          />
-        </div>
+        
       </article>
     </>
   );

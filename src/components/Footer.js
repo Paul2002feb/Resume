@@ -10,26 +10,13 @@ const Footer = () => {
     "
     >
       <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
-        <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
+        <span>{new Date().getFullYear()} &copy; Paul Kiattikhunphan</span>
 
         <div className="flex items-center lg:py-2">
-          Built with <span className="text-primary text-2xl px-1 dark:text-primaryDark">&#9825;	</span> by&nbsp;
-          <Link
-            href="https://devdreaming.com"
-            target="_blank"
-            className="underline underline-offset-2"
-          >
-            CodeBucks
-          </Link>
+          Built with NextJS, Framer-motion, and Tailwind CSS
         </div>
 
-        <Link
-          href="https://devdreaming.com/about"
-          target="_blank"
-          className="underline underline-offset-2"
-        >
-          Say Hello
-        </Link>
+        <p> Hello</p>
       </Layout>
     </footer>
   );
