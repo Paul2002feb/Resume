@@ -8,9 +8,9 @@ import Link from "next/link";
 import proj1 from "../../public/images/projects/ThreeJSPortfolio.png";
 import proj2 from "../../public/images/projects/Hoos_Notes.png";
 import proj3 from "../../public/images/projects/GameTerrain3JS.png";
-import proj4 from "../../public/images/projects/portfolio-cover-image.jpg";
-import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import proj6 from "../../public/images/projects/devdreaming.jpg";
+import proj4 from "../../public/images/projects/Next_Port.png";
+// import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
+// import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -196,8 +196,8 @@ export default function Projects() {
                 type="Featured Project"
                 title="Hoos Tutoring Application"
                 img={proj2}
-                link="https://devdreaming.com/videos/create-nft-collection-website-reactjs"
-                github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
+                link="https://cs3240-a26.herokuapp.com/"
+                github="https://github.com/uva-cs3240-s23/project-a-26"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -205,8 +205,8 @@ export default function Projects() {
                 type="Featured Project"
                 title="ThreeJS Game Terrain"
                 img={proj3}
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                link="https://github.com/Paul2002feb/ThreeJS-Project"
+                github="https://github.com/Paul2002feb/ThreeJS-Project"
               />
             </div>
             <div className="col-span-12">
@@ -215,8 +215,8 @@ export default function Projects() {
                 title="NextJS Portfolio"
                 summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
                 img={proj4}
-                link="/"
-                github="/"
+                link="https://kiattikhunphan.vercel.app/"
+                github="https://github.com/Paul2002feb/Resume"
               />
             </div>
             {/* <div className="col-span-6 sm:col-span-12">

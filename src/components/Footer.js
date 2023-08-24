@@ -16,7 +16,7 @@ const Footer = () => {
           Built with NextJS, Framer-motion, and Tailwind CSS
         </div>
 
-        <p> Hello</p>
+        
       </Layout>
     </footer>
   );

@@ -49,8 +49,8 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs;ml-2">
           <Details
-            type="Bachelor Of Arts  In Computer Science"
-            time="2016-2020"
+            type="Bachelor Of Arts In Computer Science"
+            time="2021-2025"
             place="University of Virginia"
             info="Relevant courses include: Software Development Methods, Advanced Software Development, Computer Architecture, Program and
             Data Representation, Human-Computer Interaction in Software Development, Algorithms, Discrete Mathematics, etc."
