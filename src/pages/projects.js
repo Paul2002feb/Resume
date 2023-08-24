@@ -16,11 +16,10 @@ import TransitionEffect from "@/components/TransitionEffect";
 const FramerImage = motion(Image);
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
-
   return (
     <article
       className="relative flex w-full items-center  justify-between rounded-3xl rounded-br-2xl border
-border-solid border-dark bg-light p-12 shadow-2xl  dark:border-light dark:bg-dark  lg:flex-col 
+border-solid border-dark bg-light p-6 shadow-2xl  dark:border-light dark:bg-dark  lg:flex-col 
 lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4 
     "
     >
@@ -81,7 +80,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
             "
             aria-label="Crypto Screener Application"
           >
-            Visit Project
+            View Project
           </Link>
         </div>
       </div>
@@ -90,7 +89,6 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
 };
 
 const Project = ({ title, type, img, link, github }) => {
-
   return (
     <article
       className="relative flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl 
@@ -177,24 +175,26 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Trumps Knowledge!"
-            className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+            text="Explore My Projects!"
+            className="mb-16 !text-6xl !leading-tight lg:!text-5xl sm:mb-8 sm:!text-4xl xs:!text-3xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                title="ThreeJS Vector Room Portfolio"
+                summary="Immerse yourself in my 3D Portfolio, a futuristic showcase engineered with Three.js. Roam through responsive vector rooms to discover my projects and skills—this is more than a portfolio, it's a captivating 3D experience. Elevate your expectations and explore the future of digital portfolios today.
+
+                "
                 img={proj1}
-                link="https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css"
-                github="https://github.com/codebucks27/CryptoBucks-Final-Code"
+                link="https://paulkiattikhunphan.vercel.app"
+                github="https://github.com/Paul2002feb/Portfolio"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
-                title="NFT collection Website"
+                type="Featured Project"
+                title="Hoos Tutoring Application"
                 img={proj2}
                 link="https://devdreaming.com/videos/create-nft-collection-website-reactjs"
                 github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
@@ -202,8 +202,8 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website"
-                title="Fashion Studio Website"
+                type="Featured Project"
+                title="ThreeJS Game Terrain"
                 img={proj3}
                 link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
                 github="https://github.com/codebucks27/wibe-studio"
@@ -211,15 +211,15 @@ export default function Projects() {
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                type="Portfolio Website"
-                title="React Portfolio Website"
+                type="Featured Project"
+                title="NextJS Portfolio"
                 summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
                 img={proj4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+                link="/"
+                github="/"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Website Template"
                 img={proj5}
@@ -236,7 +236,7 @@ export default function Projects() {
                 link="https://devdreaming.com"
                 github="https://github.com/codebucks27"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>
