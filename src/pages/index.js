@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Paul Portfolio!!!!!</title>
+        <title>Paul's Resume</title>
         <meta
           name="description"
           content="Explore CodeBucks's Next.js developer portfolio and 
