@@ -53,7 +53,7 @@ export default function Home() {
                 into functional and engaging web applications. Here, you can
                 explore my latest projects and articles. So, grab a virtual cup
                 of coffee from your desk, make yourself comfortable, and let&apos;s
-                explore together!
+                explore this together!
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
