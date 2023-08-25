@@ -73,7 +73,7 @@ const Experience = () => {
           <Details
             position="Product Manager Intern"
             company="W. R. Berkley Corporation"
-            companyLink="www.google.com"
+            companyLink="https://www.berkley.com/"
             time="June 2023-August 2023"
             address="Manassas, VA"
             work="
