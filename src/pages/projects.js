@@ -8,7 +8,7 @@ import Link from "next/link";
 import proj1 from "../../public/images/projects/ThreeJSPortfolio.png";
 import proj2 from "../../public/images/projects/Hoos_Notes.png";
 import proj3 from "../../public/images/projects/GameTerrain3JS.png";
-import proj4 from "../../public/images/projects/Next_Port.png";
+import proj4 from "../../public/images/projects/homePage.png";
 // import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
 // import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";

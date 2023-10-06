@@ -77,15 +77,15 @@ const Experience = () => {
             time="June 2023-August 2023"
             address="Manassas, VA"
             work="
-            • Drove system integration efforts for an $800-million-dollar platform to migrate from CC9 to CC10 Guidewire software system"
-            work2="
             • Defined 50+ ticket requirements and spearheaded user testing processes to ensure alignment with user needs and strategic goals"
-            work3="
+            work2="
             • Led cross-functional teams of 100 members to facilitate 150+ product releases across multiple operating units"
+            work3="
+            • Drove system integration efforts for an $800-million platform to migrate from CC9 to CC10 Guidewire software system"
             work4="
             • Leveraged JIRA and SQL to optimize release processes, achieving a 99% rollout success rate and 8% boost in release frequency"
             work5="
-            • Mentored a newly hired product manager, achieving a 100% seamless transition of daily responsibilities and tasks post-internship"
+            • Mentored a newly hired Product Manager, achieving a 100% seamless transition of daily responsibilities post-internship"
           />
 
           <Details
