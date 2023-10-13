@@ -84,6 +84,7 @@ const Experience = () => {
             • Utilized JIRA and SQL queries to optimize release processes, achieving a 99% rollout success rate and 8% boost in release frequency"
             work4="
             • Mentored a newly hired Product Manager, achieving a 100% seamless transition of daily responsibilities post-internship"
+            
           />
 
           <Details

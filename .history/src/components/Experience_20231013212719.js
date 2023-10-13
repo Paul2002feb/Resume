@@ -77,12 +77,14 @@ const Experience = () => {
             time="June 2023-August 2023"
             address="Manassas, VA"
             work="
-            • Headed feature ideation for Guidewire Software, defined 50+ ticket requirements, and utilized input from 50+ stakeholder interviews to prioritize features effectively"
+            • Led feature ideation for Guidewire Software, defined 50+ ticket requirements, and utilized input from 50+ stakeholder interviews to prioritize features effectively"
             work2="
-            • Led cross-functional teams of 100 members in facilitating 150+ product releases across multiple operating units"
+            • Led cross-functional teams of 100 members to facilitate 150+ product releases across multiple operating units"
             work3="
-            • Utilized JIRA and SQL queries to optimize release processes, achieving a 99% rollout success rate and 8% boost in release frequency"
+            • Drove system integration efforts for an $800-million platform to migrate from CC9 to CC10 Guidewire software system"
             work4="
+            • Leveraged JIRA and SQL to optimize release processes, achieving a 99% rollout success rate and 8% boost in release frequency"
+            work5="
             • Mentored a newly hired Product Manager, achieving a 100% seamless transition of daily responsibilities post-internship"
           />
 
@@ -93,15 +95,15 @@ const Experience = () => {
             time="June 2022-August 2022"
             address="Bangkok, TH"
             work="
-            • Implemented an SMS notification feature for real-time financial market updates, providing immediate access to vital market changes"
+            • Implemented an SMS notification feature for real-time financial market updates, resulting in a 20% increase in customer adoption"
             work2="
-            • Developed dynamic data visualizations using D3.js, transforming more than 20,000 raw financial data points into actionable insights
-            for users and investors"
-            work3="
             • Spearheaded Agile development practices alongside 4 other tech leads during sprint planning, code reviews, and scrum-related
-            meetings, assisted in backlog grooming and prioritization of stories within Jira"
+            meetings, assisting in backlog grooming and prioritization of stories within Jira"
+            work3="
+            • Developed dynamic data visualizations using D3.js and Vue.js, transforming more than 20,000 raw financial data points into
+            actionable insights for investors"
             work4="
-            • Created 20+ UI/UX wireframes in Figma for a blockchain platform, using a mobile-first approach to ensure seamless implementation"
+            • Created more than 20 UI/UX wireframe mock-ups in Figma, with a mobile-first approach, to ensure seamless implementation"
           />
           <Details
             position="Project Manager"
@@ -110,13 +112,11 @@ const Experience = () => {
             time="January 2022-May 2022"
             address="Bangkok, TH"
             work="
-            • Utilized Figma in the design of more than 15 UI wireframes and led the development of the initial prototype/minimum viable
-            product (MVP), enabling users to network in a meet-and-greet with prominent figures via a paid engagement model"
+            • Designed 15+ UI wireframes in Figma and built the initial prototype/minimum viable product (MVP), enabling users to network in a meet-and-greet with prominent figures via a paid engagement model"
             work2="
-            • Directed the coding team and revamped engineering processes by deploying weekly code sprints, reviews and agile methodologies"
+            • Led coding team and revamped engineering processes by deploying weekly code sprints, agile methodologies, and code reviews"
             work3="
-            • Managed the generation of 10+ user stories and conducted extensive beta testing to ensure optimal experience and performance
-            "
+            • Managed the generation of 10+ user stories and conducted extensive beta testing to assure optimal experience and performance"
           />
           {/* <Details
             position="Product Manager Intern"

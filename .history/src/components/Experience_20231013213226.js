@@ -84,6 +84,7 @@ const Experience = () => {
             • Utilized JIRA and SQL queries to optimize release processes, achieving a 99% rollout success rate and 8% boost in release frequency"
             work4="
             • Mentored a newly hired Product Manager, achieving a 100% seamless transition of daily responsibilities post-internship"
+            
           />
 
           <Details
@@ -115,8 +116,7 @@ const Experience = () => {
             work2="
             • Directed the coding team and revamped engineering processes by deploying weekly code sprints, reviews and agile methodologies"
             work3="
-            • Managed the generation of 10+ user stories and conducted extensive beta testing to ensure optimal experience and performance
-            "
+            • Managed the generation of 10+ user stories and conducted extensive beta testing to assure optimal experience and performance"
           />
           {/* <Details
             position="Product Manager Intern"

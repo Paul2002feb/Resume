@@ -84,6 +84,7 @@ const Experience = () => {
             • Utilized JIRA and SQL queries to optimize release processes, achieving a 99% rollout success rate and 8% boost in release frequency"
             work4="
             • Mentored a newly hired Product Manager, achieving a 100% seamless transition of daily responsibilities post-internship"
+            
           />
 
           <Details
@@ -110,13 +111,11 @@ const Experience = () => {
             time="January 2022-May 2022"
             address="Bangkok, TH"
             work="
-            • Utilized Figma in the design of more than 15 UI wireframes and led the development of the initial prototype/minimum viable
-            product (MVP), enabling users to network in a meet-and-greet with prominent figures via a paid engagement model"
+            • Designed 15+ UI wireframes in Figma and built the initial prototype/minimum viable product (MVP), enabling users to network in a meet-and-greet with prominent figures via a paid engagement model"
             work2="
-            • Directed the coding team and revamped engineering processes by deploying weekly code sprints, reviews and agile methodologies"
+            • Led coding team and revamped engineering processes by deploying weekly code sprints, agile methodologies, and code reviews"
             work3="
-            • Managed the generation of 10+ user stories and conducted extensive beta testing to ensure optimal experience and performance
-            "
+            • Managed the generation of 10+ user stories and conducted extensive beta testing to assure optimal experience and performance"
           />
           {/* <Details
             position="Product Manager Intern"
