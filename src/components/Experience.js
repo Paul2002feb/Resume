@@ -77,13 +77,13 @@ const Experience = () => {
             time="June 2023-August 2023"
             address="Manassas, VA"
             work="
-            • Headed feature ideation for Guidewire Software, defined 50+ ticket requirements, and utilized input from 50+ stakeholder interviews to prioritize features effectively"
+            • Spearheaded feature ideation process for CC10 Guidewire Management Software, defining 50+ ticket requirements and facilitating the creation of a product requirement document (PRD) to establish a shared understanding between the client and the team"
             work2="
-            • Led cross-functional teams of 100 members in facilitating 150+ product releases across multiple operating units"
+            • Leveraged Jira to optimize product release workflows, streamline issue tracking, and improve deployment processes, resulting in an on-time delivery for 98% of sprint commitments and a 7% increase in release frequency"
             work3="
-            • Utilized JIRA and SQL queries to optimize release processes, achieving a 99% rollout success rate and 8% boost in release frequency"
+            • Performed feature validation processes in SQL, facilitating 40+ ticket resolutions and reducing feature time-to-market by 22%"
             work4="
-            • Mentored a newly hired Product Manager, achieving a 100% seamless transition of daily responsibilities post-internship"
+            • Guided cross-functional teams of 100 members in executing over 150 product releases across multiple operating units"
           />
 
           <Details
@@ -93,15 +93,15 @@ const Experience = () => {
             time="June 2022-August 2022"
             address="Bangkok, TH"
             work="
-            • Implemented an SMS notification feature for real-time financial market updates, providing immediate access to vital market changes"
+            • Implemented an SMS-based notification system to deliver real-time financial market updates, 
+            resulting in a 200% increase in feature adoption and a 25% improvement in user response time to market shifts"
             work2="
-            • Developed dynamic data visualizations using D3.js, transforming more than 20,000 raw financial data points into actionable insights
-            for users and investors"
+            • Developed dynamic data visualizations in D3.js for the Global Income Focus (GIF) investment model, transforming 
+            20,000+ financial data points into personalized cash flow graph projections for investors, enhancing decision-making for over 1M monthly users"
             work3="
-            • Spearheaded Agile development practices alongside 4 other tech leads during sprint planning, code reviews, and scrum-related
-            meetings, assisted in backlog grooming and prioritization of stories within Jira"
+            • Led the redesign of FINT’s (utility token) investing ecosystem to incorporate 10+ customized trading education games for investors"
             work4="
-            • Created 20+ UI/UX wireframes in Figma for a blockchain platform, using a mobile-first approach to ensure seamless implementation"
+            • Headed Agile development practices alongside 4 other tech leads during sprint planning, code reviews, scrum-related meetings, and assisted in backlog grooming and prioritization of stories within Jira"
           />
           <Details
             position="Project Manager"
@@ -110,10 +110,11 @@ const Experience = () => {
             time="January 2022-May 2022"
             address="Bangkok, TH"
             work="
-            • Utilized Figma in the design of more than 15 UI wireframes and led the development of the initial prototype/minimum viable
-            product (MVP), enabling users to network in a meet-and-greet with prominent figures via a paid engagement model"
+            • Oversaw coding team and revamped engineering processes by deploying weekly code sprints, reviews 
+            and agile methodologies, leading to a 20% increase in development velocity and a 10% decrease in post-launch issues"
             work2="
-            • Directed the coding team and revamped engineering processes by deploying weekly code sprints, reviews and agile methodologies"
+            • Designed 15+ UI wireframes in Figma and built the initial prototype/minimum viable product (MVP) with a mobile-first approach, 
+            enabling a user-friendly experience for networking in a meet-and-greet via a paid engagement model"
             work3="
             • Managed the generation of 10+ user stories and conducted extensive beta testing to ensure optimal experience and performance
             "
