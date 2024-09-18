@@ -53,7 +53,7 @@ const Education = () => {
             time="2021-2025"
             place="University of Virginia"
             info="Relevant courses include: Software Development Methods, Advanced Software Development, Computer Architecture, Program and
-            Data Representation, Human-Computer Interaction in Software Development, Algorithms, Discrete Mathematics, Software Testing, Cybersecurity, Entrepreneurship, etc."
+            Data Representation, Human-Computer Interaction in Software Development, Algorithms, Discrete Mathematics, Software Testing, Cybersecurity, Databases, Entrepreneurship"
           />
         </ul>
       </div>

@@ -72,18 +72,29 @@ const Experience = () => {
         <ul className="w-full flex flex-col items-start justify-between  ml-4 xs:ml-4">
           <Details
             position="Product Manager Intern"
+            company="Bitkub"
+            companyLink="https://www.bitkub.com/en"
+            time="May 2024-August 2024"
+            address="Bangkok, TH"
+            work="
+            • Spearheaded the decentralized exchange (DEX) product feature, creating wireframes, user journeys, and the Software Requirements Specification (SRS) document; coordinated with PMs, engineers, and data scientists to unlock $300K in new annual revenue."
+            work2="
+            • Optimized Solidity scripts for the “adminTransfer” function under KAP-20/721/1155 token standards, automating detection and removal of tokens from wallets involved in fraudulent transactions."
+            work3="
+            • Led QA and debugging of the Game Design Document (GDD) for Bitkub’s metaverse project, conducted user acceptance testing to resolve 25+ critical in-game issues, and implemented an issue-tracking process that reduced bug fix times by 20%."
+          />
+          <Details
+            position="Product Manager Intern"
             company="W. R. Berkley Corporation"
             companyLink="https://www.berkley.com/"
             time="June 2023-August 2023"
             address="Manassas, VA"
             work="
-            • Spearheaded feature ideation process for CC10 Guidewire Management Software, defining 50+ ticket requirements and facilitating the creation of a product requirement document (PRD) to establish a shared understanding between the client and the team"
+            • Spearheaded feature ideation process for CC10 Guidewire Management Software, defining 20+ ticket requirements and facilitating the creation of a product requirement document (PRD) to establish a shared understanding between the client and the team."
             work2="
-            • Leveraged Jira to optimize product release workflows, streamline issue tracking, and improve deployment processes, resulting in an on-time delivery for 98% of sprint commitments and a 7% increase in release frequency"
+            • Conducted feature validation processes for insurance underwriting tools using SQL queries and formula generation, resolving 15+ software issues and reducing underwriting processing times by 10%."
             work3="
-            • Performed feature validation processes in SQL, facilitating 40+ ticket resolutions and reducing feature time-to-market by 22%"
-            work4="
-            • Guided cross-functional teams of 100 members in executing over 150 product releases across multiple operating units"
+            • Leveraged Jira to optimize product release workflows, streamline issue tracking, and improve deployment processes, resulting in 98% on-time delivery for sprint commitments and a 4% increase in release frequency."
           />
 
           <Details
@@ -93,17 +104,15 @@ const Experience = () => {
             time="June 2022-August 2022"
             address="Bangkok, TH"
             work="
-            • Implemented an SMS-based notification system to deliver real-time financial market updates, 
-            resulting in a 200% increase in feature adoption and a 25% improvement in user response time to market shifts"
+            • Implemented an SMS-based notification system to deliver real-time financial market updates, resulting in a 200% increase in feature adoption and a 25% improvement in user response time to market shifts."
             work2="
-            • Developed dynamic data visualizations in D3.js for the Global Income Focus (GIF) investment model, transforming 
-            20,000+ financial data points into personalized cash flow graph projections for investors, enhancing decision-making for over 1M monthly users"
+            • Developed dynamic data visualizations in D3.js for the Global Income Focus (GIF) investment model, transforming 20,000+ financial data points into personalized cash flow graph projections for over 1M monthly investors."
             work3="
-            • Led the redesign of FINT’s (utility token) investing ecosystem to incorporate 10+ customized trading education games for investors"
+            • Led the redesign of FINT’s (utility token) investing ecosystem to incorporate 10+ customized trading education games for users."
             work4="
-            • Headed Agile development practices alongside 4 other tech leads during sprint planning, code reviews, scrum-related meetings, and assisted in backlog grooming and prioritization of stories within Jira"
+            • Headed Agile development practices alongside 4 other tech leads during sprint planning, code reviews, scrum-related meetings, and assisted in backlog grooming and story prioritization within Jira."
           />
-          <Details
+          {/* <Details
             position="Project Manager"
             company="VIDMA"
             companyLink="/"
@@ -118,7 +127,7 @@ const Experience = () => {
             work3="
             • Managed the generation of 10+ user stories and conducted extensive beta testing to ensure optimal experience and performance
             "
-          />
+          /> */}
           {/* <Details
             position="Product Manager Intern"
             company="W. R. Berkley Corporation"
