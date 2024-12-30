@@ -2,7 +2,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import React, { useEffect, useRef } from "react";
-import profilePic from "/public/Paul.JPG";
+import profilePic from "/public/Paul.JPG"
 import Image from "next/image";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Experience from "@/components/Experience";
@@ -60,28 +60,26 @@ const About = () => {
                 About Me
               </h2>
               <p className="font-medium text-sm">
-                Hey There 👋 I&apos;m Paul! a recent University of Virginia grad
-                with a degree in Computer Science and a minor in Technology
-                Entrepreneurship. I love creating things that make life easier
-                or more fun—whether that’s through product management, software
-                engineering, or just brainstorming new ideas with a team.
-                There’s something exciting about taking an idea and turning it
-                into something real that people can actually use.
+                Hey There 👋 I&apos;m Paul! a recent University of Virginia grad with a degree in Computer Science 
+                and a minor in Technology Entrepreneurship. I love creating things that make 
+                life easier or more fun—whether that’s through product management, software engineering, 
+                or just brainstorming new ideas with a team. There’s something exciting about taking an 
+                idea and turning it into something real that people can actually use.
               </p>
               <p className="my-4 font-medium text-sm">
-                When I’m not working on tech stuff, I like to keep busy with
-                things that help me recharge. You’ll usually find me playing
-                soccer or basketball, messing around on my guitar , or tracking
-                down the best food spots wherever I am. I’m also always up for
-                trying something new—whether it’s a new hobby, a new restaurant,
-                or a random road trip.
+              When I’m not working on tech stuff, I like to keep busy with things that help me recharge. 
+              You’ll usually find me playing soccer or basketball, messing around on my guitar , or tracking 
+              down the best food spots wherever I am. I’m also always up for trying something new—whether 
+              it’s a new hobby, a new restaurant, or a random road trip.
+
+
               </p>
               <p className="font-medium text-sm">
-                I’m big on collaboration and making work enjoyable. I genuinely
-                believe the best projects happen when people bring positive
-                energy and humor to the table, even when things get tough. If
-                you’re someone who enjoys tackling challenges and having fun
-                along the way, feel free to hit me up!
+              I’m big on collaboration and making work enjoyable. I genuinely believe the best projects 
+              happen when people bring positive energy and humor to the table, even when things get tough. 
+              If you’re someone who enjoys tackling challenges and having fun along the way, feel free to hit me up!
+
+
               </p>
             </div>
             {/* Profile Picture Border */}
