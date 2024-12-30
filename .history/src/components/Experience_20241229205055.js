@@ -69,7 +69,7 @@ const Experience = () => {
           style={{ scaleY: scrollYProgress }}
           className=" absolute left-9 top-1 w-[4px] h-full bg-dark origin-top dark:bg-light md:w[2px] md:left-[30px] xs:left-[20px]"
         />
-        <ul className="w-full flex flex-col items-start justify-between  ml-4 xs:ml-4 ">
+        <ul className="w-full flex flex-col items-start justify-between  ml-4 xs:ml-4">
           <Details
             position="Product Manager Intern"
             company="Bitkub"
@@ -106,11 +106,13 @@ const Experience = () => {
             time="June 2022-August 2022"
             address="Bangkok, TH"
             work="
-            • Developed dynamic visualizations in D3.js for the Global Income Focus (GIF) investment model, pulling portfolio metrics and transforming them into personalized cash flow graph projections for over 1M monthly investors."
+            • Spearheaded feature ideation process for CC10 Guidewire Management Software, facilitating the creation of a product requirement document (PRD) to establish a shared understanding between the client and the team."
             work2="
-            • Implemented an SMS-based notification system to deliver real-time financial market updates, increasing user engagement by 15%."
+            • Developed dynamic data visualizations in D3.js for the Global Income Focus (GIF) investment model, transforming 20,000+ financial data points into personalized cash flow graph projections for over 1M monthly investors."
             work3="
-            • Led the redesign of FINT’s (utility token) ecosystem to incorporate 10+ game-based learning features, simplifying investing concepts and enhancing onboarding experience for new users."
+            • Led the redesign of FINT’s (utility token) investing ecosystem to incorporate 10+ customized trading education games for users."
+            work4="
+            • Headed Agile development practices alongside 4 other tech leads during sprint planning, code reviews, scrum-related meetings, and assisted in backlog grooming and story prioritization within Jira."
           />
           {/* <Details
             position="Project Manager"

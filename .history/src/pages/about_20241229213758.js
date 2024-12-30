@@ -60,7 +60,7 @@ const About = () => {
                 About Me
               </h2>
               <p className="font-medium text-sm">
-                Hey There 👋 I&apos;m Paul! a recent University of Virginia grad with a degree in Computer Science 
+                Hey There 👋 I&apos;m Paul! a recent UVA grad with a degree in Computer Science 
                 and a minor in Technology Entrepreneurship. I love creating things that make 
                 life easier or more fun—whether that’s through product management, software engineering, 
                 or just brainstorming new ideas with a team. There’s something exciting about taking an 
@@ -100,7 +100,7 @@ const About = () => {
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   {" "}
-                  <AnimatedNumbers value={5} />+
+                  <AnimatedNumbers value={3} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Projects Completed
@@ -116,10 +116,10 @@ const About = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={3} />+
+                  <AnimatedNumbers value={20} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Internships
+                  Countries Visited
                 </h2>
               </div>
             </div>

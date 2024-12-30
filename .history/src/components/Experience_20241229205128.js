@@ -69,7 +69,7 @@ const Experience = () => {
           style={{ scaleY: scrollYProgress }}
           className=" absolute left-9 top-1 w-[4px] h-full bg-dark origin-top dark:bg-light md:w[2px] md:left-[30px] xs:left-[20px]"
         />
-        <ul className="w-full flex flex-col items-start justify-between  ml-4 xs:ml-4 ">
+        <ul className="w-full flex flex-col items-start justify-between  ml-4 xs:ml-4">
           <Details
             position="Product Manager Intern"
             company="Bitkub"
@@ -111,6 +111,7 @@ const Experience = () => {
             • Implemented an SMS-based notification system to deliver real-time financial market updates, increasing user engagement by 15%."
             work3="
             • Led the redesign of FINT’s (utility token) ecosystem to incorporate 10+ game-based learning features, simplifying investing concepts and enhancing onboarding experience for new users."
+           
           />
           {/* <Details
             position="Project Manager"

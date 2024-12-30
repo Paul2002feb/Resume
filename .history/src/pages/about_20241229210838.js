@@ -56,30 +56,30 @@ const About = () => {
           {/* creates an 8 column layout */}
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
-              <h2 className="mb-4 text-2xl font-bold uppercase text-dark/75 dark:text-light/75 underline">
+              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 underline">
                 About Me
               </h2>
               <p className="font-medium text-sm">
-                Hey There 👋 I&apos;m Paul! a recent University of Virginia grad with a degree in Computer Science 
-                and a minor in Technology Entrepreneurship. I love creating things that make 
-                life easier or more fun—whether that’s through product management, software engineering, 
-                or just brainstorming new ideas with a team. There’s something exciting about taking an 
-                idea and turning it into something real that people can actually use.
+                Hey There 👋 I&apos;m Paul! I am currently a student at the
+                University of Virginia, majoring in Computer Science and
+                minoring in Technology Entrepreneurship.
               </p>
               <p className="my-4 font-medium text-sm">
-              When I’m not working on tech stuff, I like to keep busy with things that help me recharge. 
-              You’ll usually find me playing soccer or basketball, messing around on my guitar , or tracking 
-              down the best food spots wherever I am. I’m also always up for trying something new—whether 
-              it’s a new hobby, a new restaurant, or a random road trip.
-
-
+                Ever since I was young, I&apos;ve been fascinated by the way
+                technology impacts our lives, which led me down the rabbit hole
+                of coding, and all things tech. When I&apos;m not knee-deep in
+                lines of code, you&apos;ll find me exploring various hobbies
+                that help me unwind and recharge. Whether it&apos;s playing
+                soccer and basketball or strumming a tune on my guitar, I love
+                embracing new experiences and broadening my horizons.
               </p>
               <p className="font-medium text-sm">
-              I’m big on collaboration and making work enjoyable. I genuinely believe the best projects 
-              happen when people bring positive energy and humor to the table, even when things get tough. 
-              If you’re someone who enjoys tackling challenges and having fun along the way, feel free to hit me up!
-
-
+                I like to think of myself as the ultimate team player. I&apos;m
+                all about good communication, adapting to new situations, and
+                most importantly, making work fun! I&apos;m always down to grab
+                a bite to eat and explore new places. I&apos;m the type of
+                person that can make even the most mundane tasks enjoyable and I
+                always bring a positive attitude to the table.
               </p>
             </div>
             {/* Profile Picture Border */}
@@ -88,7 +88,7 @@ const About = () => {
               <Image
                 src={profilePic}
                 alt="Paul"
-                className="w-full h-auto max-h-[34vw] rounded-xl"
+                className="w-full h-auto rounded-2xl"
                 priority
                 //sizes attribute
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -98,7 +98,7 @@ const About = () => {
             </div>
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+                <span className="inline-block text-6xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   {" "}
                   <AnimatedNumbers value={5} />+
                 </span>
@@ -107,7 +107,7 @@ const About = () => {
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+                <span className="inline-block text-6xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={10000} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
@@ -115,11 +115,11 @@ const About = () => {
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={3} />+
+                <span className="inline-block text-6xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+                  <AnimatedNumbers value={20} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Internships
+                  Countries Visited
                 </h2>
               </div>
             </div>
