@@ -60,7 +60,7 @@ const About = () => {
                 About Me
               </h2>
               <p className="font-medium text-sm">
-                Hey There 👋 I&apos;m Paul, a recent University of Virginia grad
+                Hey There 👋 I&apos;m Paul, recent University of Virginia grad
                 with a degree in Computer Science and a minor in Technology
                 Entrepreneurship. I love creating things that make life easier
                 or more fun—whether that’s through product management, software
