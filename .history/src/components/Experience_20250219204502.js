@@ -69,7 +69,7 @@ const Experience = () => {
           style={{ scaleY: scrollYProgress }}
           className=" absolute left-9 top-1 w-[4px] h-full bg-dark origin-top dark:bg-light md:w[2px] md:left-[30px] xs:left-[20px]"
         />
-        <ul className="w-full flex flex-col items-start justify-between  ml-4 xs:ml-4 list-disc list-inside text-lg marker:text-dark/75"">
+        <ul className="w-full flex flex-col items-start justify-between  ml-4 xs:ml-4 ">
           <Details
             position="Product Manager Intern"
             company="Bitkub"
@@ -77,13 +77,13 @@ const Experience = () => {
             time="May 2024-August 2024"
             address="Bangkok, TH"
             work="
-            • Spearheaded the decentralized exchange (DEX) feature, coordinated with PMs, engineers, and data science to unlock $400K in new annual revenue and boost transaction volume by 20% through peer-to-peer trading."
+            • Spearheaded the decentralized exchange (DEX) feature, defined product strategy through blockchain analytics and liquidity dep th analysis, and coordinated with PMs, engineers, and data science to unlock $400,000 in new annual revenue."
             work2="
-            • Conducted complex opportunity sizing for DEX marketplace, including SQL queries and formula generation to drive strategic decision-making, influencing 2024/25 product roadmap and aligned competing teams to descope project and save $100k."
+            • Conducted complex opportunity sizing for the DEX marketplace, including SQL queries and Python-driven analysis to drive strategic decision-making, influencing 2024/25 product roadmap and aligned competing teams to descope project and save $100,000."
             work3="
-            • Headed functional QA for Bitkub Metaverse, conducted user acceptance testing (UAT) to resolve 25+ in-game issues, and implemented an issue-tracking process that reduced bug fix times by 15%."
+            • Prioritized a feature backlog for a Virtual Reality (VR) app, defining technical specifications for item crafting and token transactions by analyzing 5,000+ simulated transactions and 200+ internal test reports to optimize staking rewards and asset liquidity."
             work4="
-            • Led the fraud detection feature for KAP-20/721/1155 smart contract development standards; created wireframes, user journeys, and the Software Requirements Specification (SRS) document to automate token removal from wallets involved in fraudulent transactions."
+            • Led the fraud detection and security feature for KAP-20/721/1155 smart contract standards; created wireframes, user journeys, and the software requirements specification (SRS) document to support automated transaction reversals in cases of fraud."
           />
           <Details
             position="Product Manager Intern"
@@ -106,7 +106,7 @@ const Experience = () => {
             time="June 2022-August 2022"
             address="Bangkok, TH"
             work="
-            • Developed dynamic visualizations in D3.js for the Global Income Focus (GIF) investment model, pulling portfolio metrics and transforming them into personalized cash flow graph projections for over 1M monthly investors."
+            • Spearheaded feature ideation for P&C information management software, creating 40+ tickets and a product requirement document (PRD) based on 20+ stakeholder interviews to prioritize features effectively."
             work2="
             • Implemented an SMS-based notification system to deliver real-time financial market updates, increasing user engagement by 15%."
             work3="

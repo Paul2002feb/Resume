@@ -69,7 +69,7 @@ const Experience = () => {
           style={{ scaleY: scrollYProgress }}
           className=" absolute left-9 top-1 w-[4px] h-full bg-dark origin-top dark:bg-light md:w[2px] md:left-[30px] xs:left-[20px]"
         />
-        <ul className="w-full flex flex-col items-start justify-between  ml-4 xs:ml-4">
+        <ul className="w-full flex flex-col items-start justify-between  ml-4 xs:ml-4 ">
           <Details
             position="Product Manager Intern"
             company="Bitkub"
@@ -77,12 +77,14 @@ const Experience = () => {
             time="May 2024-August 2024"
             address="Bangkok, TH"
             work="
-            • Spearheaded the decentralized exchange (DEX) feature, coordinated with PMs, engineers, and data science to unlock $400K in new annual revenue and boost transaction volume by 20% through peer-to-peer trading."
+            • Spearheaded the decentralized exchange (DEX) feature, defined product strategy through blockchain analytics and liquidity dep th analysis, and coordinated with PMs, engineers, and data science to unlock $400,000 in new annual revenue."
             work2="
-            • Conducted complex opportunity sizing for DEX marketplace, including SQL queries and formula generation to drive strategic decision-making, influencing 2024/25 product roadmap and aligned competing teams to descope project and save $100k."
+            • Conducted complex opportunity sizing for the DEX marketplace, including SQL queries and Python-driven analysis to drive strategic decision-making, influencing 2024/25 product roadmap and aligned competing teams to descope project and save $100,000."
             work3="
-            • 
-Headed functional QA for Bitkub Metaverse, conducted user acceptance testing (UAT) to resolve 25+ in-game issues, and implemented an issue-tracking process that reduced bug fix times by 15%.
+            • Prioritized a feature backlog for a Virtual Reality (VR) app, defining technical specifications for item crafting and token transactions by analyzing 5,000+ simulated transactions and 200+ internal test reports to optimize staking rewards and asset liquidity."
+            work4="
+            • Led the fraud detection and security feature for KAP-20/721/1155 smart contract standards; created wireframes, user journeys, and the software requirements specification (SRS) document to support automated transaction reversals in cases of fraud."
+          />
           <Details
             position="Product Manager Intern"
             company="W. R. Berkley Corporation"
@@ -90,11 +92,11 @@ Headed functional QA for Bitkub Metaverse, conducted user acceptance testing (UA
             time="June 2023-August 2023"
             address="Manassas, VA"
             work="
-            • Spearheaded feature ideation process for CC10 Guidewire Management Software, defining 20+ ticket requirements and facilitating the creation of a product requirement document (PRD) to establish a shared understanding between the client and the team."
+            • Spearheaded feature ideation process for CC10 Guidewire Management Software, facilitating the creation of a product requirement document (PRD) to establish a shared understanding between the client and the team."
             work2="
-            • Conducted feature validation processes for insurance underwriting tools using SQL queries and formula generation, resolving 15+ software issues and reducing underwriting processing times by 10%."
+            • Conducted feature validation for insurance underwriting tools using SQL queries to ensure end-to-end workflow accuracy, resolving 15+ software issues and reducing underwriting processing times by 10%."
             work3="
-            • Leveraged Jira to optimize product release workflows, streamline issue tracking, and improve deployment processes, resulting in 98% on-time delivery for sprint commitments and a 4% increase in release frequency."
+            • Streamlined product release workflows and issue tracking using Jira, leading Agile practices with 4 other tech leads, including sprint planning, backlog grooming, and story prioritization, achieving 98% on-time delivery and a 5% increase in release frequency."
           />
 
           <Details
@@ -104,13 +106,11 @@ Headed functional QA for Bitkub Metaverse, conducted user acceptance testing (UA
             time="June 2022-August 2022"
             address="Bangkok, TH"
             work="
-            • Implemented an SMS-based notification system to deliver real-time financial market updates, resulting in a 200% increase in feature adoption and a 25% improvement in user response time to market shifts."
+            • Spearheaded feature ideation for P&C information management software, creating 40+ tickets and a product requirement document (PRD) based on 20+ stakeholder interviews to prioritize features effectively."
             work2="
-            • Developed dynamic data visualizations in D3.js for the Global Income Focus (GIF) investment model, transforming 20,000+ financial data points into personalized cash flow graph projections for over 1M monthly investors."
+            • Performed SQL-driven analysis to verify underwriting data integrity within insurance policy systems, cross-checked document outputs against input data, and analyzed workers' compensation datasets to identify 10+ data discrepancies."
             work3="
-            • Led the redesign of FINT’s (utility token) investing ecosystem to incorporate 10+ customized trading education games for users."
-            work4="
-            • Headed Agile development practices alongside 4 other tech leads during sprint planning, code reviews, scrum-related meetings, and assisted in backlog grooming and story prioritization within Jira."
+            • Configured and maintained Jira workflows and dashboards for PI Planning (SAFe), automating backlog refinement and sprint tracking for 100+ development tasks, reducing backlog grooming time by 15% and improving sprint predictability for underwriting automation."
           />
           {/* <Details
             position="Project Manager"
