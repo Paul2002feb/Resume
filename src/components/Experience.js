@@ -77,26 +77,25 @@ const Experience = () => {
             time="May 2024-August 2024"
             address="Bangkok, TH"
             work="
-            • Spearheaded the decentralized exchange (DEX) feature, defined product strategy through blockchain analytics and liquidity dep th analysis, and coordinated with PMs, engineers, and data science to unlock $400,000 in new annual revenue."
+            • Spearheaded the decentralized exchange (DEX) platform, defined product strategy through market research, formula generation, and blockchain data, unlocking $800K in new annual revenue and shaping the 2024/25 product roadmap."
             work2="
-            • Conducted complex opportunity sizing for the DEX marketplace, including SQL queries and Python-driven analysis to drive strategic decision-making, influencing 2024/25 product roadmap and aligned competing teams to descope project and save $100,000."
+            • Defined product requirements and designed a trading system for a blockchain-integrated Virtual Reality (VR) app, collaborating with data scientists to develop mathematical formulas for managing asset flow and resource distribution."
             work3="
-            • Prioritized a feature backlog for a Virtual Reality (VR) app, defining technical specifications for item crafting and token transactions by analyzing 5,000+ simulated transactions and 200+ internal test reports to optimize staking rewards and asset liquidity."
-            work4="
-            • Led the fraud detection and security feature for KAP-20/721/1155 smart contract standards; created wireframes, user journeys, and the software requirements specification (SRS) document to support automated transaction reversals in cases of fraud."
+            • Led the fraud detection and security feature for KAP-20/721/1155 smart contracts, creating wireframes, user journeys, and a software requirements specification (SRS) to support automated transaction reversals."
+            
           />
           <Details
-            position="Product Manager Intern"
+            position="Product Manager Analyst Intern"
             company="W. R. Berkley Corporation"
             companyLink="https://www.berkley.com/"
             time="June 2023-August 2023"
             address="Manassas, VA"
             work="
-            • Spearheaded feature ideation process for CC10 Guidewire Management Software, facilitating the creation of a product requirement document (PRD) to establish a shared understanding between the client and the team."
+            • Conducted User Acceptance Testing (UAT) and analyzed SQL databases in insurance policy systems, cross-checking document  outputs against input data to identify 20+ discrepancies across 100K+ records and policy data."
             work2="
-            • Conducted feature validation for insurance underwriting tools using SQL queries to ensure end-to-end workflow accuracy, resolving 15+ software issues and reducing underwriting processing times by 10%."
+            • Spearheaded feature ideation for property and casualty (P&C) information management software, creating 40+ Jira tickets and a  product requirement document (PRD) based on 20+ stakeholder interviews to prioritize features effectively."
             work3="
-            • Streamlined product release workflows and issue tracking using Jira, leading Agile practices with 4 other tech leads, including sprint planning, backlog grooming, and story prioritization, achieving 98% on-time delivery and a 5% increase in release frequency."
+            • Redesigned the endorsement renewal form workflow in Figma and implemented UI components using TypeScript and Tailwind,  improving form usability and reducing policy update errors."
           />
 
           <Details
@@ -106,11 +105,11 @@ const Experience = () => {
             time="June 2022-August 2022"
             address="Bangkok, TH"
             work="
-            • Spearheaded feature ideation for P&C information management software, creating 40+ tickets and a product requirement document (PRD) based on 20+ stakeholder interviews to prioritize features effectively."
+            • Developed dynamic data visualizations in D3.js and Power BI for the Global Income Focus (GIF) and Retirement Income Solution (RIS) investment model, transforming complex financial graphs into cash flow projections for over 1M monthly investors."
             work2="
-            • Performed SQL-driven analysis to verify underwriting data integrity within insurance policy systems, cross-checked document outputs against input data, and analyzed workers' compensation datasets to identify 10+ data discrepancies."
+            • Built an internal SMS-based notification tool to deliver real-time financial market updates for portfolio risk monitoring."
             work3="
-            • Configured and maintained Jira workflows and dashboards for PI Planning (SAFe), automating backlog refinement and sprint tracking for 100+ development tasks, reducing backlog grooming time by 15% and improving sprint predictability for underwriting automation."
+            • Led the revamp of FINT’s (utility token) ecosystem, defining technical requirements and documenting the integration of 10+ game-based learning modules in Confluence, simplifying decentralized finance (DeFi) concepts for new users."
           />
           {/* <Details
             position="Project Manager"
